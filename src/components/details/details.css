@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@500&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+.details {
+  background: #fff;
+}
+
+.details .resume {
+  background: var(--color-footer);
+  /* width: 944px; */
+  /* height: 745px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4.5rem;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+.items-spacing {
+  margin-bottom: 4rem;
+}
+
+.details .resume .logo {
+  width: 115.39px;
+  height: 109px;
+}
+
+.details .resume p:nth-child(1) {
+  font-family: "Inter";
+  font-size: 20px;
+  line-height: 35px;
+}
+
+.details .resume .download-resume {
+  background: var(--color-footer);
+  border: 1px solid var(--color-skill);
+  font-family: var(--font-family);
+  font-size: 28px;
+  line-height: 33px;
+  color: var(--color-skill);
+  padding: 1rem 2rem;
+}
