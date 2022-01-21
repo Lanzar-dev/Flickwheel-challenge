@@ -9,3 +9,14 @@ a {
   color: unset;
   text-decoration: none;
 }
+
+.num {
+  color: var(--color-subtext);
+}
+
+h2 {
+  font-family: var(--font-family);
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 70px;
+}

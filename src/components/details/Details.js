@@ -1,6 +1,8 @@
 import React from "react";
+import Portfolio from "../portfolio/Portfolio";
+import Professional from "../professional/Professional";
 import "./details.css";
-import logo from "../../assets/logo.png";
+// import logo from "../../assets/logo.png";
 
 const Details = () => {
   return (
@@ -17,14 +19,13 @@ const Details = () => {
         </div>
       </div> */}
       <div className="bottom-details">
-        <div className="professional">
-          <h1>professional</h1>
-        </div>
-        <div className="portfolio">
+        <Professional />
+        <Portfolio />
+        {/* <div className="portfolio">
           <h1>portfolio</h1>
-        </div>
+        </div> */}
         <div className="experience">
-          <h1>experience</h1>
+          <h1>EXPEERIENCE</h1>
         </div>
       </div>
     </div>

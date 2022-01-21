@@ -1,0 +1,23 @@
+.portfolio {
+}
+
+.portfolio img {
+  width: 396px;
+  height: 377px;
+}
+
+.portfolio-images {
+  margin: 3rem auto;
+}
+
+.portfolio div p {
+  font-family: var(--font-family);
+  font-size: 30px;
+  line-height: 35px;
+  letter-spacing: 0.01em;
+}
+
+.see-more {
+  color: var(--color-text);
+  opacity: 0.5;
+}
