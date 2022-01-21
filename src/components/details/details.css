@@ -2,6 +2,7 @@
 
 .details {
   background: #fff;
+  position: relative;
 }
 
 .details .resume {
@@ -16,13 +17,17 @@
   margin: auto;
   width: 50%;
   text-align: center;
+  position: absolute;
+  top: -170px;
+  right: 25%;
+  z-index: 100;
 }
 
 .items-spacing {
   margin-bottom: 4rem;
 }
 
-.details .resume .logo {
+.details .resume img {
   width: 115.39px;
   height: 109px;
 }

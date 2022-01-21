@@ -17,9 +17,9 @@ const Portfolio = () => {
           </p>
         </div>
         <div className="portfolio-images">
-          <img src={portfolio1} alt="" />
-          <img src={portfolio2} alt="" />
-          <img src={portfolio3} alt="" />
+          <img src={portfolio1} alt="laptop" />
+          <img src={portfolio2} alt="headphone" />
+          <img src={portfolio3} alt="phone" />
         </div>
       </div>
     </>

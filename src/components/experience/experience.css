@@ -1,0 +1,64 @@
+.experience {
+  margin-bottom: 6rem;
+}
+
+.experience .experience-top {
+  margin-bottom: 20px;
+}
+
+.experience .experience-details {
+  max-width: 780px;
+  max-height: 1096px;
+  display: flex;
+}
+
+.experience-details-content {
+  display: flex;
+  flex-direction: column;
+  padding: 0 2rem;
+}
+
+.experience-details-left .experience-details-content {
+  margin-top: 10rem;
+  text-align: right;
+}
+
+.experience-details-right .experience-details-content {
+  margin-bottom: 10rem;
+  text-align: left;
+}
+
+.experience-details-content p:nth-child(1) {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 35px;
+  color: var(--color-skill);
+}
+
+.experience-details-content h4 {
+  font-family: var(--font-family);
+  font-size: 28px;
+  line-height: 35px;
+}
+
+.experience-details-content p:nth-child(2) {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 35px;
+}
+
+.experience-details-content p:nth-child(3) {
+  font-family: var(--font-family);
+  font-size: 16px;
+  line-height: 35px;
+  color: var(--color-subtext);
+}
+
+.vertical-rule {
+  background: var(--color-skill);
+  /* height: 2px; */
+  width: 2px;
+  border: none;
+}
