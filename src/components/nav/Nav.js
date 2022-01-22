@@ -31,10 +31,11 @@ const Nav = () => {
           {/* <KeyboardArrowDownOutlinedIcon /> */}
         </p>
       </div>
-      <div className="nav-links">
+      <div className="nav-links nav-signup">
         <p>
           <Link to="/signin">Sign In</Link>
         </p>
+        <div className="bottom-div"></div>
       </div>
       <div className="nav-signup">
         <p>

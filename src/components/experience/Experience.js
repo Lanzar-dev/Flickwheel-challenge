@@ -23,7 +23,7 @@ const Experience = () => {
     <div className="experience">
       <div className="experience-top">
         <h2>
-          <span className="num">02</span> EXPERIENCE
+          <span className="num">03</span> EXPERIENCE
         </h2>
       </div>
       <div className="experience-details">

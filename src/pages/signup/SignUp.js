@@ -25,10 +25,20 @@ const SignUp = () => {
             </p>
           </div>
           <div className="signup-right">
-            <input type="text" placeholder="Username" />
-            <input type="text" placeholder="Email" />
-            <input type="text" placeholder="Password" />
-            <button type="button">SIGN UP</button>
+            <input
+              className="signup-input"
+              type="text"
+              placeholder="Username"
+            />
+            <input className="signup-input" type="text" placeholder="Email" />
+            <input
+              className="signup-input"
+              type="text"
+              placeholder="Password"
+            />
+            <button className="signup-input" type="button">
+              SIGN UP
+            </button>
             <div className="icons">
               <div className="divider">
                 <hr className="line" />

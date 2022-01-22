@@ -24,7 +24,6 @@ textarea::placeholder {
 .footer-container .footer-left {
   display: flex;
   flex-direction: column;
-  /* text-align: left; */
   padding-right: 30px;
   margin-right: 30px;
   flex: 1;
@@ -42,7 +41,6 @@ textarea::placeholder {
 }
 
 .footer-container .footer-right {
-  /* margin-left: 20px; */
   flex: 1;
 }
 
@@ -54,10 +52,11 @@ textarea::placeholder {
 form .form-names {
   display: flex;
   flex-direction: row;
+  flex: 1;
 }
 
-input,
-textarea {
+.footer-right form input,
+.footer-right form textarea {
   background: #ffffff;
   border: 1px solid var(--color-input);
   padding: 1rem 2rem;
@@ -65,22 +64,35 @@ textarea {
   outline: none;
 }
 
-input::placeholder,
-textarea::placeholder,
+.footer-right form input,
+button.footer-btn {
+  border-radius: 0;
+}
+
+.footer-right form input::placeholder,
+.footer-right form textarea::placeholder,
 button {
   font-weight: 500;
   font-size: 16px;
+}
+
+.footer-right form input.input-phone,
+button.footer-btn {
+  width: 100%;
 }
 
 form .form-names .input-name {
   margin-right: 20px;
 }
 
-button {
+button.footer-btn {
   background: var(--color-skill);
   font-family: var(--font-family);
   line-height: 35px;
   color: #ffffff;
   border: none;
   cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 10px 20px;
 }

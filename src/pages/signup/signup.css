@@ -1,8 +1,6 @@
 .signup {
   padding: 2rem;
   height: 100vh;
-  /* width: 100vw; */
-  /* margin: 0; */
   position: relative;
 }
 
@@ -56,18 +54,31 @@
   cursor: pointer;
 }
 
-input,
-button {
+input.signup-input,
+button.signup-input {
   border-radius: 15px;
   padding: 20px;
   width: 75%;
+  margin-bottom: 20px;
+  border: none;
+  outline: none;
 }
 
-input {
+input.signup-input {
   background: #fff8f9;
 }
 
-button {
+input.signup-input::placeholder {
+  font-family: Inter;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  text-indent: 2px;
+  color: rgba(18, 18, 18, 0.6);
+}
+
+button.signup-input {
   box-shadow: 5px 5px 5px 3px rgba(0, 87, 146, 0.07);
   font-family: Inter;
   font-weight: bold;
@@ -75,10 +86,14 @@ button {
   line-height: 29px;
   letter-spacing: -0.02em;
   color: #ffffff;
+
+  background: #f22e5d;
+  border-radius: 15px;
+  padding: 15px 25px;
 }
 
 .signup-right .icons {
-  margin: 30px 0;
+  margin: 30px 100px 30px 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

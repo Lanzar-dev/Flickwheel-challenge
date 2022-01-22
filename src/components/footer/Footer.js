@@ -28,7 +28,9 @@ const Footer = () => {
               rows="10"
               placeholder="Message"
             ></textarea>
-            <button type="button">Send</button>
+            <button className="footer-btn" type="button">
+              Send
+            </button>
           </form>
         </div>
       </div>

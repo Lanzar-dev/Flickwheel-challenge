@@ -27,10 +27,20 @@ const SignIn = () => {
             </p>
           </div>
           <div className="signup-right">
-            <input type="text" placeholder="Username" />
-            <input type="text" placeholder="Password" />
+            <input
+              className="signup-input"
+              type="text"
+              placeholder="Username"
+            />
+            <input
+              className="signup-input"
+              type="text"
+              placeholder="Password"
+            />
             <p className="recovery">Recovery password</p>
-            <button type="button">SIGN IN</button>
+            <button className="signup-input" type="button">
+              SIGN IN
+            </button>
             <div className="icons">
               <div className="divider">
                 <hr className="line" />
