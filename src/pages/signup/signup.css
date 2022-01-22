@@ -1,0 +1,131 @@
+.signup {
+  padding: 2rem;
+  height: 100vh;
+  /* width: 100vw; */
+  /* margin: 0; */
+  position: relative;
+}
+
+.signup-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  padding: 2.5rem;
+}
+
+.signup-left,
+.signup-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.signup-left {
+  text-align: left;
+}
+
+.signup-right {
+  text-align: right;
+  align-items: flex-end;
+}
+
+.signup-left h6 {
+  font-family: var(--font-family);
+  font-weight: 900;
+  font-size: 70px;
+  line-height: 82px;
+  letter-spacing: 0.03em;
+  color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 4rem;
+}
+
+.signup-left p {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  color: rgba(0, 0, 0, 0.85);
+  text-align: left;
+}
+
+.signup-left p span {
+  color: var(--color-skill);
+  cursor: pointer;
+}
+
+input,
+button {
+  border-radius: 15px;
+  padding: 20px;
+  width: 75%;
+}
+
+input {
+  background: #fff8f9;
+}
+
+button {
+  box-shadow: 5px 5px 5px 3px rgba(0, 87, 146, 0.07);
+  font-family: Inter;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+.signup-right .icons {
+  margin: 30px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.signup-right .icons .divider,
+.signup-right .icons .social {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.signup-right .icons .divider span {
+  margin: 0 5px;
+  font-family: Inter;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(18, 18, 18, 0.35);
+}
+
+.signup-right .icons .divider .line {
+  width: 50px;
+  height: 0.5px;
+  background: #e5e5e5;
+}
+
+img {
+  cursor: pointer;
+}
+
+.circle1,
+.circle2 {
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.circle1 {
+  background: rgba(242, 46, 93, 0.09);
+  left: -100px;
+  bottom: -200px;
+}
+
+.circle2 {
+  background: rgba(242, 46, 93, 0.07);
+  left: -150px;
+  bottom: -220px;
+}

@@ -82,4 +82,5 @@ button {
   line-height: 35px;
   color: #ffffff;
   border: none;
+  cursor: pointer;
 }

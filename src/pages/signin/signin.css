@@ -1,0 +1,10 @@
+.signup-right p.recovery {
+  font-family: Inter;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  text-indent: 2px;
+  color: rgba(18, 18, 18, 0.35);
+  margin-bottom: 25px;
+}
