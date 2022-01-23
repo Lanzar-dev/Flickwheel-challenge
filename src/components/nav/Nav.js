@@ -1,10 +1,23 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
 import "./nav.css";
 import logo from "../../assets/logo.png";
 // import KeyboardArrowDownOutlinedIcon from "@mui/icons-material/KeyboardArrowDownOutlined";
 
 const Nav = () => {
+  const [signupDiv, setSignupDiv] = useState(false);
+  const [signinDiv, setSigninDiv] = useState(false);
+
+  let location = useLocation();
+
+  useEffect(() => {
+    if (location.pathname === "/signup") {
+      setSignupDiv(true);
+    } else if (location.pathname === "/signin") {
+      setSigninDiv(true);
+    }
+  }, [location.pathname]);
+
   return (
     <div className="nav">
       <div>
@@ -31,17 +44,18 @@ const Nav = () => {
           {/* <KeyboardArrowDownOutlinedIcon /> */}
         </p>
       </div>
-      <div className="nav-links nav-signup">
+      {/* <div className="nav-links nav-signup"> */}
+      <div className={signinDiv ? "nav-links nav-signup" : "nav-links"}>
         <p>
           <Link to="/signin">Sign In</Link>
         </p>
-        <div className="bottom-div"></div>
+        {signinDiv && <div className="bottom-div"></div>}
       </div>
-      <div className="nav-signup">
+      <div className={signupDiv ? "nav-signup" : ""}>
         <p>
           <Link to="/signup">Sign Up</Link>
         </p>
-        <div className="bottom-div"></div>
+        {signupDiv && <div className="bottom-div"></div>}
       </div>
     </div>
   );
