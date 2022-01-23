@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import "./nav.css";
 import logo from "../../assets/logo.png";
-// import KeyboardArrowDownOutlinedIcon from "@mui/icons-material/KeyboardArrowDownOutlined";
+import KeyboardArrowDownOutlinedIcon from "@mui/icons-material/KeyboardArrowDownOutlined";
 
 const Nav = () => {
   const [signupDiv, setSignupDiv] = useState(false);
@@ -39,12 +39,11 @@ const Nav = () => {
         </p>
       </div>
       <div className="nav-links dropdown">
-        <p>
+        <p className="arrowIcon">
           <a href="#English">English</a>
-          {/* <KeyboardArrowDownOutlinedIcon /> */}
+          <KeyboardArrowDownOutlinedIcon />
         </p>
       </div>
-      {/* <div className="nav-links nav-signup"> */}
       <div className={signinDiv ? "nav-links nav-signup" : "nav-links"}>
         <p>
           <Link to="/signin">Sign In</Link>

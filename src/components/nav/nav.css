@@ -45,3 +45,11 @@ p {
   height: 2px;
   background: var(--color-skill);
 }
+
+.arrowIcon {
+  display: flex;
+}
+
+.arrowIcon a {
+  margin-right: 5px;
+}
