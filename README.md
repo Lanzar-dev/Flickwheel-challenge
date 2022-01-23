@@ -1,11 +1,9 @@
 <h1>Demo link: <a href="https://eloquent-shirley-f0ec3a.netlify.app/">fleekwheel-challenge</a></h1>
 
 <h2>NOTE</h2>
-<p>This application is not mobile responsive yet!</p>
-<p>Add <strong>"/signup"</strong> or <strong>"/signin"</strong> as a suffix to the <br/>
-above url to or use the link on either of the pages to visit either of those pages</p>
+<p>This application is not mobile responsive yet!!!</p>
+<p>Add <strong>"/signup"</strong> to the above url to visit the signup page</p>
+<p>Add <strong>"/signin"</strong> to the above url to visit the signin page</p>
+<p>Add <strong>"/dashboard"</strong> to the above url to visit the dashboard page</p>
 
-<p>The project still need some fixes on each of the pages</p>
-
-<h4>ToDo:</h4>
-<p>Dashboard</p>
+<p>The project still need some fixes on signup/signin and portfolio pages</p>
